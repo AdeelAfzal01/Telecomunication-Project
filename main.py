@@ -20,7 +20,7 @@ def main():
 
     # Ensure the OpenAI API key is available
     if api_key:
-        os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
+        os.environ['OPENAI_API_KEY'] = api_key
         # File uploader for CSV
         csv_file = st.file_uploader("Upload a CSV file", type="csv")
         if csv_file is not None:
