@@ -13,8 +13,8 @@ import streamlit as st
 def main():
     # Set OpenAI API key
     # os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
-    st.set_page_config(page_title="TeleBot")
-    st.header("Ask your TeleBot 📈")
+    st.set_page_config(page_title="AINA")
+    st.header("Ask your AINA 🤖")
 
     api_key = st.text_input("Enter your OpenAI API Key:", type="password")
 
